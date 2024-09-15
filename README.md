@@ -42,25 +42,28 @@ This is the frontend source code for the **Task Manager Application** built usin
 }
 ```
 
+
 ## Setup and Installation
 
 1. Clone the repository:
-
    ```
    git clone [your-repo-url]
    cd task-manager-frontend
    ```
 
 2. Install dependencies:
-
    ```
    npm install
    ```
 
-3. Start the development server:
-
+3. Create a `.env` file in the root directory and add the backend API URL:
    ```
-   npm start
+   REACT_APP_API_URL=http://localhost:8000/
    ```
 
-This will run the app in development mode. Open `http://localhost:3000` to view it in the browser.
+4. Start the development server:
+   ```
+   npm run dev
+   ```
+
+This will run the app in development mode. The console output will show you the local address where you can view your app (typically `http://localhost:5173` or similar for Vite-based projects).
