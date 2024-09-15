@@ -1,0 +1,33 @@
+.task-details-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    border-bottom: none;
+    padding: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .badge {
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .task-buttons {
+    margin-top: 40px;
+}
+.task-buttons .btn {
+    margin-right: 10px;
+}

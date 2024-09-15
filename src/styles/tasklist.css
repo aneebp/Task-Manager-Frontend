@@ -1,0 +1,44 @@
+.task-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #4861bc;
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 400ms ease;
+  }
+  
+  .back-button:hover {
+    font-size: 3.5rem;
+  }
+.task-list {
+    margin-top: 20px;
+}
+.task-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.completed {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+.pending {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+}
+.task-form {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.filter-btn-group {
+    margin-bottom: 20px;
+}
